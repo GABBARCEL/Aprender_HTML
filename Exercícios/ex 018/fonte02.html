@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: "Rubik";
+            src: url(fonts/RubikPuddles-Regular.ttf) format(truetype);
+        }
+
+        @font-face {
+            font-family: "SourGummy";
+            src: url(fonts/SourGummy-Italic-VariableFont_wdth\,wght.ttf) format(truetype);
+        }
+
+            /* tipos de format:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat
+            -svg
+            */
+        body{
+            font-family: "SourGummy", Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+
+        h1 {
+            font-family: "Rubik", Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo de teste</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eaque cumque excepturi maiores assumenda sunt adipisci vero facilis, corrupti ipsa dolorem non eos cum rerum, aut eveniet modi porro ipsum.</p>
+</body>
+</html>
